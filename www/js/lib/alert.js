@@ -1,8 +1,13 @@
 /**
- * This should be an AMD compatible Alert class to trigger alerts
+ * AMD compatible Alert class to trigger alerts
  * @param {type} text
  * @returns {undefined}
  */
-var Alert = function (text) {
-	alert(text);
-}
+define([
+], function () {
+	var Alert = function (text) {
+		alert(text);
+	};
+
+	return Alert;
+});

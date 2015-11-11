@@ -8,8 +8,8 @@ requirejs.config({
       "app": "../app"
     },
     "shim": {
-        //"jquery.alpha": ["jquery"],
-        //"jquery.beta": ["jquery"]
+        "jquery.alpha": ["jquery"],
+        "jquery.beta": ["jquery"]
     }
 });
 
